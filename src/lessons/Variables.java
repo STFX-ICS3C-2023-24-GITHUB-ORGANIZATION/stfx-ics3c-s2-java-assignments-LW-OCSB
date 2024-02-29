@@ -20,8 +20,13 @@ public class Variables {
 		
 		// Strings
 		String myString1 = "hello";
+		String myString2 = "$$$$$";
 		
-
+		// Print variables
+		System.out.println(myString1);
+		
+		
+		
 	}
 
 }
