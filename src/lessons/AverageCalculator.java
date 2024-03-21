@@ -18,7 +18,7 @@ public class AverageCalculator {
 		System.out.println("Enter Test1 score: ");
 		test1 = sc.nextInt();
 		System.out.println("Enter Test2 score: ");
-		test2 = sc.nextInt();
+		test2 = sc.nextInt();  
 		System.out.println("Enter Test3 score: ");
 		test3 = sc.nextInt();
 		System.out.println("Enter Test4 score: ");
@@ -27,6 +27,7 @@ public class AverageCalculator {
 		// processing
 		average = (test1 + test2 + test3 + test4) / 4;
 		
+		// output
 		System.out.println("Average score is: " + average);
 		
 		
